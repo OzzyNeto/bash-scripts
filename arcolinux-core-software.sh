@@ -67,7 +67,7 @@ sudo pacman -S --noconfirm --needed lua
 
 
 #################################### Internet #################################################
-sudo pacman -S --noconfirm --needed fiefox
+sudo pacman -S --noconfirm --needed firefox
 sudo pacman -S --noconfirm --needed thunderbird
 sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed discord
