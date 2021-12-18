@@ -52,8 +52,7 @@ sudo pacman -S --noconfirm --needed bash-completion
 sudo pacman -S --noconfirm --needed texlive-most
 
 # Javascript
-sudo pacman -S --noconfirm --needed nodejs
-sudo pacman -S --noconfirm --needed npm
+yay -S --sudoloop --noconfirm --needed nvm
 
 # Go
 sudo pacman -S --noconfirm --needed go
