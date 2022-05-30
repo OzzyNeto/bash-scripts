@@ -2,8 +2,8 @@
 #set -e
 
 ####################################### NeoVim ################################################
-npm i -g yarn
-npm i -g neovim
+#npm i -g yarn
+#npm i -g neovim
 sudo pacman -S --noconfirm --needed python-pynvim
 sudo pacman -S --noconfirm --needed ueberzug
 sudo pacman -S --noconfirm --needed texlab

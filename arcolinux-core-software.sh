@@ -16,10 +16,12 @@ sudo pacman -S --noconfirm --needed man-db
 sudo pacman -S --noconfirm --needed vim
 sudo pacman -S --noconfirm --needed neovim
 sudo pacman -S --noconfirm --needed emacs
-yay -S --sudoloop --noconfirm --needed visual-studio-code-bin
-yay -S --sudoloop --noconfirm --needed visual-studio-code-insiders-bin
+sudo pacman -S --noconfirm --needed code
+#yay -S --sudoloop --noconfirm --needed visual-studio-code-bin
+#yay -S --sudoloop --noconfirm --needed visual-studio-code-insiders-bin
 
 # Fonts
+sudo pacman -S --noconfirm --needed ttf-jetbrains-mono
 yay -S --sudoloop --noconfirm --needed nerd-fonts-dejavu-complete
 yay -S --sudoloop --noconfirm --needed nerd-fonts-fira-code
 yay -S --sudoloop --noconfirm --needed nerd-fonts-hack
@@ -42,6 +44,11 @@ sudo pacman -S --noconfirm --needed python
 sudo pacman -S --noconfirm --needed python-pip
 sudo pacman -S --noconfirm --needed python-pylint
 
+# Java
+sudo pacman -S --noconfirm --needed jre-openjdk
+sudo pacman -S --noconfirm --needed jdk-openjdk
+sudo pacman -S --noconfirm --needed openjdk-doc 
+
 # Rust
 sudo pacman -S --noconfirm --needed rust
 
@@ -53,6 +60,9 @@ sudo pacman -S --noconfirm --needed texlive-most
 
 # Javascript
 yay -S --sudoloop --noconfirm --needed nvm
+
+# Haskell
+sudo pacman -S --noconfirm --needed ghc 
 
 # Go
 sudo pacman -S --noconfirm --needed go
